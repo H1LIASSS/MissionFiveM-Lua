@@ -13,7 +13,6 @@ function WaitFor(value) -- value response for the statement of their last intera
         dn = GetEntityCoords(npc,true)
 
         if GetDistanceBetweenCoords(dp,dn) <= distanceInteraction and not talking then
-            print("1")
             TriggerEvent('ShowOptions')
             talking = true
         elseif talking and GetDistanceBetweenCoords(dp,dn) > distanceInteraction then

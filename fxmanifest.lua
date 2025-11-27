@@ -2,10 +2,10 @@ fx_version 'cerulean'
 game 'gta5'
 
 author '1S'
-description 'Last man standing'
+description 'The last man standing'
 version '1.0'
 
-resource_type 'gametype' { name = 'mission' }
+resource_type 'gametype' { name = 'The last man standing' }
 
 dependencies {
     'NativeUI'

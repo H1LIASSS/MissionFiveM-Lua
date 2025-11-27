@@ -1,6 +1,4 @@
 local completedMission = false
-
-
 AddEventHandler('Mission',function()
 
      Citizen.CreateThread(function()

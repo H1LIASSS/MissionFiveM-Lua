@@ -59,17 +59,14 @@ function PreparePed(i)
     return ped
 end
 
-
 AddEventHandler('Mission',function()
 
     for i=1, onLevel do
         npcs[i]= PreparePed(i)
-        i=i+1
     end
    Citizen.CreateThread(function()
         RegulateAllyOnLevel()
     end)
-
 end)
 
 function InformDeath(i) --Set of rules for the death of i element of npcs list
